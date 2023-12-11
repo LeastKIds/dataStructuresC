@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  c:
+    image: gcc:13.2.0
+    volumes:
+      - .:/app
+    container_name: dataStructuresC
+    command: sleep infinity
